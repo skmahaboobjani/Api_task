@@ -1,0 +1,136 @@
+.project-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 500px;
+    overflow-y: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .project-container h1 {
+    margin: 0 0 10px 0;
+  }
+  
+  .repo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .repo-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .repo-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .issue-box, .star-box {
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    box-sizing: border-box; 
+  } 
+  
+  .star-box {
+    color: #ff9800;
+    border: 4px solid rgb(185, 11, 11);
+    margin-left: 0; 
+  }
+  
+  .issue-box {
+    color: #f44336;
+    margin-right: 0; 
+  }
+  
+  .owner-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .owner-image {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .owner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .owner-name {
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .info-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-box p {
+    margin: 0;
+  }
+  
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .issue-box, .star-box {
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    box-sizing: border-box; /* add this line */
+  }
+  
+  .star-box {
+    color: #ff9800;
+    border: 4px solid rgb(185, 11, 11);
+    margin-left: 0; 
+  }
+  
+  .issue-box {
+    color: #f44336;
+    margin-right: 0; 
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  td {
+    vertical-align: top;
+  }
+  
